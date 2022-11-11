@@ -1,9 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   images: {
     domains: ["rb.gy"],
   },
-  reactStrictMode: true,
 };
-
-module.exports = nextConfig;
